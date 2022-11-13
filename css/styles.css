@@ -239,11 +239,9 @@ img{
     background: rgba(255, 255, 255, 0.1);
 }
 
-.soc-link:hover {
-    background-color: var(--accent-color);
-}
 
-.footer-soc-link:hover{
+.footer-soc-link:hover,
+.footer-soc-link:focus{
     background-color: var(--accent-color);
 }
 
@@ -393,8 +391,6 @@ h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-
-    padding-top: 30px;
 }
 
 .team-item{
@@ -408,18 +404,17 @@ h3 {
     font-size: 16px;
     line-height: 1.19;
 
-    margin-top: 10px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .team-border{
     text-align: center; 
+    padding: 30px;
 }
 .soc-list {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding-bottom: 30px;
 }
 
 .soc-item {
@@ -436,12 +431,14 @@ h3 {
     align-items: center;
 }
 
-.soc-link:hover{
+.soc-link:hover,
+.soc-link:focus{
     background-color: var(--accent-color);
 }
 
-.soc-link:hover .soc-icon{
-    fill: #FFFFFF;
+.soc-link:hover .soc-icon,
+.soc-link:focus .soc-icon{
+    fill: #FFFFFF;      
 }
 
 .clients-list{
@@ -468,11 +465,13 @@ h3 {
 }
 
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
     border-color: var(--accent-color);
 }
 
-.clients-link:hover .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
     fill: var(--accent-color);
 }
 
