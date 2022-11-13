@@ -78,6 +78,11 @@ img{
     align-items: center;
 }
 
+.contact-nav .link {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     color: var(--black-color);
 
@@ -347,6 +352,7 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 120px;
+    width: 270px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
     border-radius: 4px;
